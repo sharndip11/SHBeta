@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SikHeritage (Beta)</string>
+    <string name="footer">SikHeritage 2017 | by Sharn and Sosa</string>
+    <string name="action_settings">Réglages</string>
+
+    <!-- STRING POUR LA CONNEXION ET L INSCRIPTION -->
+    <string name="prompt_email">Adresse Email</string>
+    <string name="prompt_password">Mot de Passe</string>
+    <string name="prompt_nom">Nom</string>
+    <string name="prompt_prenom">Prénom</string>
+    <string name="prompt_confirm_password">Confirmer</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="action_register">S\'inscrire</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="action_register_short">S\'inscrire</string>
+    <string name="error_invalid_email">Cette Adresse Email est invalide.</string>
+    <string name="error_invalid_password">Ce Mot de Passe est trop court.</string>
+    <string name="error_invalid_lastname">Ce Prénom est invalide.</string>
+    <string name="error_invalid_firstname">Ce Nom est invalide.</string>
+    <string name="error_incorrect_password">Ce Mot de Passe est incorrect.</string>
+    <string name="error_field_required">Ce champs est requis !</string>
+    <string name="error_login_pass">Erreur, veuillez vérifier le Mot de Passe saisi.</string>
+    <string name="error_login_mail">Erreur, veuillez vérifier l\'Adresse Email saisie.</string>
+    <string name="permission_rationale">"Contacts permissions are needed"</string>
+    <string name="navigation_drawer_open">Ouvrir</string>
+    <string name="navigation_drawer_close">Fermer</string>
+
+    <!--STRINGS POUR LE MENU LATERAL-->
+    <string name="nom_prenom"></string>
+    <string name="email"></string>
+
+    <!--STRINGS POUR LE MENU ET L ACUEIL-->
+    <string name="accueil">Accueil</string>
+    <string name="vie">Vie d\'un Sikh</string>
+    <string name="bio">Biographie</string>
+    <string name="histoire">Histoire</string>
+    <string name="temple">Temples</string>
+    <string name="faq">FAQ</string>
+    <string name="quizz">Quizz</string>
+    <string name="actualite">Actualités</string>
+
+
+    <!--STRINGS DE L ACCUEIL-->
+    <string name="test"></string>
+    <string name="welcome_text">Bienvenue sur SikHeritage</string>
+    <string name="texte_descriptif_home">
+        Le Sikhisme est la 5ième religion au monde ayant le plus de pratiquants, après le
+        Christianisme, l\'Islam, l\'Hindouisme et le Bouddhisme.\nLe Sikhisme est une religion
+        distincte, monothéiste et indépendante.
+    </string>
+    <string name="texte_descriptif_faq">
+        Dans cette rubrique, vous pouvez laisser vos idées ou encore discuter des sujets de votre
+        choix.\n\nChoississez un des sujets suivants pour nous faire part de vos remarques.
+    </string>
+
+    <!--STRINGS DE VIE D UN SIKH-->
+
+    - See more at:
+    http://www.theappguruz.com/blog/easy-way-to-create-tab-layout-in-android-without-viewpager#sthash.23LdeVRC.dpuf
+
+
+    <!--STRINGS POUR LA FAQ -->
+    <string name="welcome_text_faq">FAQ</string>
+    <string name="sujetfaq"></string>
+    <string name="title_activity_vie_sikh_tab">VieSikhTabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_histoire">HistoireActivity</string>
+    <string name="title_biographie_list">Biographies</string>
+    <string name="title_biographie_detail">Biographie Detail</string>
+    <string name="title_activity_biographie">BiographieActivity</string>
+    <string name="title_activity_bio_details">Biographie details</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_accueil"
+                    android:title="@string/accueil" /><!--ic_menu_camera-->
+                <item
+                    android:id="@+id/nav_viesikh"
+                    android:title="@string/vie" /><!--ic_menu_gallery-->
+                <item
+                    android:id="@+id/nav_histoire"
+                    android:title="@string/histoire" /><!--ic_menu_slideshow-->
+                <item
+                    android:id="@+id/nav_biographies"
+                    android:title="@string/bio" /><!--ic_menu_manage-->
+                <item
+                    android:id="@+id/nav_temples"
+                    android:title="@string/temple" />
+                <item
+                    android:id="@+id/nav_faq"
+                    android:title="@string/faq" />
+                <item
+                    android:id="@+id/nav_quizz"
+                    android:title="@string/quizz" />
+                <item
+                    android:id="@+id/nav_actualites"
+                    android:title="@string/actualite" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communiquer">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+</menu>
