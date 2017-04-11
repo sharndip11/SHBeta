@@ -1,15 +1,21 @@
 package com.example.sosa.shbeta.BioDetails;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.sosa.shbeta.R;
 
 public class BioDetailsActivity extends AppCompatActivity {
+
+    TextView nameTxt;
+    ImageView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +32,20 @@ public class BioDetailsActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        //INITIALIZE VIEWS
+        nameTxt = (TextView) findViewById(R.id.babadeepsinghNameDetails);
+        img = (ImageView) findViewById(R.id.babadeepsinghImageDetails);
+
+        //RECEIVE DATA
+        Intent intent = this.getIntent();
+        String name = intent.getExtras().getString("NAME_KEY");
+        int image = intent.getExtras().getInt("IMAGE_KEY");
+
+        //BIND DATA
+        nameTxt.setText(name);
+        img.setImageResource(image);
+
     }
 
 }

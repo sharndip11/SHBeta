@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/bio_babbadeepsingh"
+            android:id="@+id/bio_imagebabbadeepsingh"
             android:padding="10dp"
             android:src="@drawable/babadeepsingh" />
 
@@ -23,10 +23,10 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Baba Deep Singh Ji"
-            android:id="@+id/name_babadeepsingh"
+            android:id="@+id/nameTxt"
             android:padding="10dp"
             android:textColor="#000101"
-            android:layout_below="@+id/bio_babbadeepsingh"
+            android:layout_below="@+id/bio_imagebabbadeepsingh"
             android:layout_alignParentLeft="true" />
 
     </RelativeLayout>
